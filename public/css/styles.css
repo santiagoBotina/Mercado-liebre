@@ -527,6 +527,11 @@ main article {
     transform: rotate(-90deg);
   }
 
+  #ultima-vista article,
+  #ofertas article {
+    transition: all 0.2s ease;
+  }
+
   #ultima-vista article:hover,
   #ofertas article:hover {
     box-shadow: 3px 3px 10px #afafaf, -3px -3px 10px #afafaf;
