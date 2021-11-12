@@ -450,10 +450,6 @@ main article {
 @media (min-width: 1024px) {
   /*navbar*/
 
-  .description {
-    display: none;
-  }
-
   /*Header - Logo and input*/
 
   .header-search {
