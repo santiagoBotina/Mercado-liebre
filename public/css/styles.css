@@ -537,6 +537,10 @@ main article {
     box-shadow: 3px 3px 10px #afafaf, -3px -3px 10px #afafaf;
   }
 
+  nav .burger-menu {
+    display: none;
+  }
+
   /*login*/
 
   main button {
