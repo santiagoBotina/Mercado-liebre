@@ -130,8 +130,14 @@ main article {
 }
 
 @media (max-width: 767px) {
-  nav ul {
-    display: none;
+  header nav {
+    display: flex;
+  }
+
+  header nav .nav-sells,
+  header nav .nav-account {
+    display: flex;
+    flex-direction: column;
   }
 
   #ultima-vista,
@@ -158,7 +164,6 @@ main article {
   }
 
   .header-search {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -170,11 +175,10 @@ main article {
   .search-bar {
     display: flex;
     align-items: center;
-    width: 48%;
     background-color: white;
     border: none;
+    width: 100%;
     border-radius: 5px;
-    margin: 10px 0 0 10px;
     padding: 2px;
   }
 
@@ -188,7 +192,7 @@ main article {
     border-radius: 5px;
     position: absolute;
     background-color: white;
-    right: 15px;
+    right: 90px;
   }
 
   .fa-search {
@@ -197,10 +201,6 @@ main article {
     color: #afafaf;
     font-size: 1em;
     text-align: center;
-  }
-
-  .header-phrase {
-    margin: 7% auto;
   }
 
   /*Register form*/
@@ -295,9 +295,15 @@ main article {
   }
 
   .logo-mercado-liebre,
-  .search-bar,
+  .search-bar {
+    width: 50%;
+  }
+
   .header-phrase {
-    width: 30%;
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 2%;
   }
 
   .search-bar {
@@ -312,7 +318,7 @@ main article {
   }
 
   .search-button {
-    border: solid 1px black;
+    border: none;
   }
 
   .fa-search {
