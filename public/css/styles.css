@@ -281,10 +281,6 @@ main article {
 }
 
 @media (max-width: 1023px) {
-  .description {
-    display: none;
-  }
-
   /*Header - Logo and input*/
 
   .header-search {
